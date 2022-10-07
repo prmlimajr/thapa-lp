@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  height: 100%;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.left main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  margin-top: 60px;
+}
+
+.left a {
+  font-size: 32px;
+  color: rgb(173, 50, 50);
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.left h2 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.goback {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.right {
+  display: flex;
+  flex-direction: column; 
+  width: 50%;
+  height: 100%;
+  background-color: #1c1c1c;
+  color: #fafafa;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.right h2 {
+  margin-top: 50px;
+}
+
+.right p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin: 16px 0;
+}
+
+.right p:last-child {
+  color: #f15959;
+}
